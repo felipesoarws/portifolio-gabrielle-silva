@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imagem Fixa com Texto Rolável</title>
+    <style>
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        font-family: Arial, sans-serif;
+        overflow-x: hidden; /* Remove a rolagem lateral */
+      }
+
+      .container-superior {
+        display: flex;
+        min-height: 100vh; /* Garante que a altura mínima seja a altura da tela */
+        width: 100vw; /* Largura completa da tela */
+      }
+
+      .imagem-fixa {
+        width: 50vw; /* Metade da largura da tela */
+        background: url("https://via.placeholder.com/800x1200") no-repeat center
+          center;
+        background-size: cover; /* Ajusta a imagem para cobrir a área */
+        position: sticky; /* Mantém a imagem visível ao rolar */
+        top: 0;
+        height: 100vh;
+      }
+
+      .texto-rolavel {
+        width: 50vw; /* Metade da largura da tela */
+        padding: 20px;
+        box-sizing: border-box; /* Garante que o padding não cause rolagem lateral */
+        overflow: hidden; /* Remove a barra de rolagem individual */
+      }
+
+      .texto-rolavel p {
+        margin-bottom: 20px;
+      }
+
+      .sessao-completa {
+        width: 100%; /* Ocupa 100% da largura da tela */
+        padding: 40px;
+        background-color: #f0f0f0; /* Cor de fundo para diferenciar a seção */
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Seção superior com imagem fixa e texto rolável -->
+    <div class="container-superior">
+      <div class="texto-rolavel">
+        <h2>Texto com Rolagem</h2>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
+            amet lacus enim.
+          </p>
+          <p>
+            Phasellus a volutpat lacus, vel feugiat neque. Donec eget odio ut
+            nisi vestibulum cursus.
+          </p>
+          <p>
+            Vestibulum aliquam sem sed purus euismod, et ultrices eros tempor.
+            Nulla facilisi.
+          </p>
+          <p>
+            Vivamus mollis libero nec quam vulputate, et dictum est vestibulum.
+          </p>
+          <p>
+            Suspendisse potenti. Duis sed scelerisque justo. Nam auctor purus a
+            dolor dictum, vel vehicula nisl consequat.
+          </p>
+          <p>
+            Ut sit amet mi et libero elementum vulputate id a velit. Sed
+            porttitor nibh nec risus dictum, a posuere elit scelerisque.
+          </p>
+          <p>
+            Sed nec interdum leo. Praesent id lacus urna. Fusce id dictum metus,
+            quis blandit dolor.
+          </p>
+          <p>
+            Morbi venenatis, eros nec efficitur egestas, mauris elit fermentum
+            orci, sit amet fermentum tortor felis non lacus.
+          </p>
+          <p>
+            Nunc nec sapien eget urna gravida tincidunt a vel turpis. Donec sed
+            ultricies libero.
+          </p>
+          <p>
+            Aenean placerat scelerisque mi non consectetur. Nullam eu libero
+            eget dui vestibulum facilisis.
+          </p>
+          <p>
+            Quisque suscipit, magna sit amet ullamcorper congue, orci nunc
+            finibus nulla, et dignissim velit erat a nisi.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            potenti.
+          </p>
+          <p>
+            Phasellus a volutpat lacus, vel feugiat neque. Donec eget odio ut
+            nisi vestibulum cursus.
+          </p>
+          <p>
+            Vestibulum aliquam sem sed purus euismod, et ultrices eros tempor.
+            Nulla facilisi.
+          </p>
+          <p>
+            Vivamus mollis libero nec quam vulputate, et dictum est vestibulum.
+          </p>
+          <p>
+            Suspendisse potenti. Duis sed scelerisque justo. Nam auctor purus a
+            dolor dictum, vel vehicula nisl consequat.
+          </p>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
+            amet lacus enim.
+          </p>
+          <p>
+            Phasellus a volutpat lacus, vel feugiat neque. Donec eget odio ut
+            nisi vestibulum cursus.
+          </p>
+          <p>
+            Vestibulum aliquam sem sed purus euismod, et ultrices eros tempor.
+            Nulla facilisi.
+          </p>
+          <p>
+            Vivamus mollis libero nec quam vulputate, et dictum est vestibulum.
+          </p>
+          <p>
+            Suspendisse potenti. Duis sed scelerisque justo. Nam auctor purus a
+            dolor dictum, vel vehicula nisl consequat.
+          </p>
+          <p>
+            Ut sit amet mi et libero elementum vulputate id a velit. Sed
+            porttitor nibh nec risus dictum, a posuere elit scelerisque.
+          </p>
+          <p>
+            Sed nec interdum leo. Praesent id lacus urna. Fusce id dictum metus,
+            quis blandit dolor.
+          </p>
+          <p>
+            Morbi venenatis, eros nec efficitur egestas, mauris elit fermentum
+            orci, sit amet fermentum tortor felis non lacus.
+          </p>
+          <p>
+            Nunc nec sapien eget urna gravida tincidunt a vel turpis. Donec sed
+            ultricies libero.
+          </p>
+          <p>
+            Aenean placerat scelerisque mi non consectetur. Nullam eu libero
+            eget dui vestibulum facilisis.
+          </p>
+          <p>
+            Quisque suscipit, magna sit amet ullamcorper congue, orci nunc
+            finibus nulla, et dignissim velit erat a nisi.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            potenti.
+          </p>
+          <p>
+            Phasellus a volutpat lacus, vel feugiat neque. Donec eget odio ut
+            nisi vestibulum cursus.
+          </p>
+          <p>
+            Vestibulum aliquam sem sed purus euismod, et ultrices eros tempor.
+            Nulla facilisi.
+          </p>
+          <p>
+            Vivamus mollis libero nec quam vulputate, et dictum est vestibulum.
+          </p>
+          <p>
+            Suspendisse potenti. Duis sed scelerisque justo. Nam auctor purus a
+            dolor dictum, vel vehicula nisl consequat. felipe
+          </p>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
+            amet lacus enim.
+          </p>
+          <p>
+            Phasellus a volutpat lacus, vel feugiat neque. Donec eget odio ut
+            nisi vestibulum cursus.
+          </p>
+          <p>
+            Vestibulum aliquam sem sed purus euismod, et ultrices eros tempor.
+            Nulla facilisi.
+          </p>
+          <p>
+            Vivamus mollis libero nec quam vulputate, et dictum est vestibulum.
+          </p>
+          <p>
+            Suspendisse potenti. Duis sed scelerisque justo. Nam auctor purus a
+            dolor dictum, vel vehicula nisl consequat.
+          </p>
+          <p>
+            Ut sit amet mi et libero elementum vulputate id a velit. Sed
+            porttitor nibh nec risus dictum, a posuere elit scelerisque.
+          </p>
+          <p>
+            Sed nec interdum leo. Praesent id lacus urna. Fusce id dictum metus,
+            quis blandit dolor.
+          </p>
+          <p>
+            Morbi venenatis, eros nec efficitur egestas, mauris elit fermentum
+            orci, sit amet fermentum tortor felis non lacus.
+          </p>
+          <p>
+            Nunc nec sapien eget urna gravida tincidunt a vel turpis. Donec sed
+            ultricies libero.
+          </p>
+          <p>
+            Aenean placerat scelerisque mi non consectetur. Nullam eu libero
+            eget dui vestibulum facilisis.
+          </p>
+          <p>
+            Quisque suscipit, magna sit amet ullamcorper congue, orci nunc
+            finibus nulla, et dignissim velit erat a nisi.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            potenti.
+          </p>
+          <p>
+            Phasellus a volutpat lacus, vel feugiat neque. Donec eget odio ut
+            nisi vestibulum cursus.
+          </p>
+          <p>
+            Vestibulum aliquam sem sed purus euismod, et ultrices eros tempor.
+            Nulla facilisi.
+          </p>
+          <p>
+            Vivamus mollis libero nec quam vulputate, et dictum est vestibulum.
+          </p>
+          <p>
+            Suspendisse potenti. Duis sed scelerisque justo. Nam auctor purus a
+            dolor dictum, vel vehicula nisl consequat.
+          </p>
+        </div>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit
+            amet lacus enim.
+          </p>
+          <p>
+            Phasellus a volutpat lacus, vel feugiat neque. Donec eget odio ut
+            nisi vestibulum cursus.
+          </p>
+          <p>
+            Vestibulum aliquam sem sed purus euismod, et ultrices eros tempor.
+            Nulla facilisi.
+          </p>
+          <p>
+            Vivamus mollis libero nec quam vulputate, et dictum est vestibulum.
+          </p>
+          <p>
+            Suspendisse potenti. Duis sed scelerisque justo. Nam auctor purus a
+            dolor dictum, vel vehicula nisl consequat.
+          </p>
+          <p>
+            Ut sit amet mi et libero elementum vulputate id a velit. Sed
+            porttitor nibh nec risus dictum, a posuere elit scelerisque.
+          </p>
+          <p>
+            Sed nec interdum leo. Praesent id lacus urna. Fusce id dictum metus,
+            quis blandit dolor.
+          </p>
+          <p>
+            Morbi venenatis, eros nec efficitur egestas, mauris elit fermentum
+            orci, sit amet fermentum tortor felis non lacus.
+          </p>
+          <p>
+            Nunc nec sapien eget urna gravida tincidunt a vel turpis. Donec sed
+            ultricies libero.
+          </p>
+          <p>
+            Aenean placerat scelerisque mi non consectetur. Nullam eu libero
+            eget dui vestibulum facilisis.
+          </p>
+          <p>
+            Quisque suscipit, magna sit amet ullamcorper congue, orci nunc
+            finibus nulla, et dignissim velit erat a nisi.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            potenti.
+          </p>
+          <p>
+            Phasellus a volutpat lacus, vel feugiat neque. Donec eget odio ut
+            nisi vestibulum cursus.
+          </p>
+          <p>
+            Vestibulum aliquam sem sed purus euismod, et ultrices eros tempor.
+            Nulla facilisi.
+          </p>
+          <p>
+            Vivamus mollis libero nec quam vulputate, et dictum est vestibulum.
+          </p>
+          <p>
+            Suspendisse potenti. Duis sed scelerisque justo. Nam auctor purus a
+            dolor dictum, vel vehicula nisl consequat. felipe
+          </p>
+        </div>
+      </div>
+      <div class="imagem-fixa"></div>
+    </div>
+
+    <!-- Seção completa que ocupa 100% da largura da tela -->
+    <div class="sessao-completa">
+      <h2>Seção Completa</h2>
+      <p>
+        Esta é uma nova seção que ocupa 100% da largura da tela, livre do layout
+        dividido. Você pode adicionar qualquer conteúdo aqui, como imagens,
+        textos, vídeos ou outros elementos que precisar.
+      </p>
+      <p>
+        Aqui você tem a liberdade de usar toda a largura da página para exibir
+        conteúdo adicional, sem restrições do layout anterior.
+      </p>
+      <p>
+        Continua a adicionar mais conteúdo conforme necessário para testar a
+        rolagem e a exibição desta seção em telas de diferentes tamanhos.
+      </p>
+      <p>
+        Exemplo de mais conteúdo nesta seção para garantir que você tenha uma
+        área ampla para trabalhar. Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit. Sed sit amet lacus enim. Phasellus a volutpat lacus,
+        vel feugiat neque.
+      </p>
+      <p>
+        Esta é uma nova seção que ocupa 100% da largura da tela, livre do layout
+        dividido. Você pode adicionar qualquer conteúdo aqui, como imagens,
+        textos, vídeos ou outros elementos que precisar.
+      </p>
+      <p>
+        Aqui você tem a liberdade de usar toda a largura da página para exibir
+        conteúdo adicional, sem restrições do layout anterior.
+      </p>
+      <p>
+        Continua a adicionar mais conteúdo conforme necessário para testar a
+        rolagem e a exibição desta seção em telas de diferentes tamanhos.
+      </p>
+      <p>
+        Exemplo de mais conteúdo nesta seção para garantir que você tenha uma
+        área ampla para trabalhar. Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit. Sed sit amet lacus enim. Phasellus a volutpat lacus,
+        vel feugiat neque.
+      </p>
+      <p>
+        Esta é uma nova seção que ocupa 100% da largura da tela, livre do layout
+        dividido. Você pode adicionar qualquer conteúdo aqui, como imagens,
+        textos, vídeos ou outros elementos que precisar.
+      </p>
+      <p>
+        Aqui você tem a liberdade de usar toda a largura da página para exibir
+        conteúdo adicional, sem restrições do layout anterior.
+      </p>
+      <p>
+        Continua a adicionar mais conteúdo conforme necessário para testar a
+        rolagem e a exibição desta seção em telas de diferentes tamanhos.
+      </p>
+      <p>
+        Exemplo de mais conteúdo nesta seção para garantir que você tenha uma
+        área ampla para trabalhar. Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit. Sed sit amet lacus enim. Phasellus a volutpat lacus,
+        vel feugiat neque.
+      </p>
+      <p>
+        Esta é uma nova seção que ocupa 100% da largura da tela, livre do layout
+        dividido. Você pode adicionar qualquer conteúdo aqui, como imagens,
+        textos, vídeos ou outros elementos que precisar.
+      </p>
+      <p>
+        Aqui você tem a liberdade de usar toda a largura da página para exibir
+        conteúdo adicional, sem restrições do layout anterior.
+      </p>
+      <p>
+        Continua a adicionar mais conteúdo conforme necessário para testar a
+        rolagem e a exibição desta seção em telas de diferentes tamanhos.
+      </p>
+      <p>
+        Exemplo de mais conteúdo nesta seção para garantir que você tenha uma
+        área ampla para trabalhar. Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit. Sed sit amet lacus enim. Phasellus a volutpat lacus,
+        vel feugiat neque.
+      </p>
+      <p>
+        Esta é uma nova seção que ocupa 100% da largura da tela, livre do layout
+        dividido. Você pode adicionar qualquer conteúdo aqui, como imagens,
+        textos, vídeos ou outros elementos que precisar.
+      </p>
+      <p>
+        Aqui você tem a liberdade de usar toda a largura da página para exibir
+        conteúdo adicional, sem restrições do layout anterior.
+      </p>
+      <p>
+        Continua a adicionar mais conteúdo conforme necessário para testar a
+        rolagem e a exibição desta seção em telas de diferentes tamanhos.
+      </p>
+      <p>
+        Exemplo de mais conteúdo nesta seção para garantir que você tenha uma
+        área ampla para trabalhar. Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit. Sed sit amet lacus enim. Phasellus a volutpat lacus,
+        vel feugiat neque.
+      </p>
+      <p>
+        Esta é uma nova seção que ocupa 100% da largura da tela, livre do layout
+        dividido. Você pode adicionar qualquer conteúdo aqui, como imagens,
+        textos, vídeos ou outros elementos que precisar.
+      </p>
+      <p>
+        Aqui você tem a liberdade de usar toda a largura da página para exibir
+        conteúdo adicional, sem restrições do layout anterior.
+      </p>
+      <p>
+        Continua a adicionar mais conteúdo conforme necessário para testar a
+        rolagem e a exibição desta seção em telas de diferentes tamanhos.
+      </p>
+      <p>
+        Exemplo de mais conteúdo nesta seção para garantir que você tenha uma
+        área ampla para trabalhar. Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit. Sed sit amet lacus enim. Phasellus a volutpat lacus,
+        vel feugiat neque.
+      </p>
+      <p>
+        Esta é uma nova seção que ocupa 100% da largura da tela, livre do layout
+        dividido. Você pode adicionar qualquer conteúdo aqui, como imagens,
+        textos, vídeos ou outros elementos que precisar.
+      </p>
+      <p>
+        Aqui você tem a liberdade de usar toda a largura da página para exibir
+        conteúdo adicional, sem restrições do layout anterior.
+      </p>
+      <p>
+        Continua a adicionar mais conteúdo conforme necessário para testar a
+        rolagem e a exibição desta seção em telas de diferentes tamanhos.
+      </p>
+      <p>
+        Exemplo de mais conteúdo nesta seção para garantir que você tenha uma
+        área ampla para trabalhar. Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit. Sed sit amet lacus enim. Phasellus a volutpat lacus,
+        vel feugiat neque.
+      </p>
+      <p>
+        Esta é uma nova seção que ocupa 100% da largura da tela, livre do layout
+        dividido. Você pode adicionar qualquer conteúdo aqui, como imagens,
+        textos, vídeos ou outros elementos que precisar.
+      </p>
+      <p>
+        Aqui você tem a liberdade de usar toda a largura da página para exibir
+        conteúdo adicional, sem restrições do layout anterior.
+      </p>
+      <p>
+        Continua a adicionar mais conteúdo conforme necessário para testar a
+        rolagem e a exibição desta seção em telas de diferentes tamanhos.
+      </p>
+      <p>
+        Exemplo de mais conteúdo nesta seção para garantir que você tenha uma
+        área ampla para trabalhar. Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit. Sed sit amet lacus enim. Phasellus a volutpat lacus,
+        vel feugiat neque.
+      </p>
+    </div>
+  </body>
+</html>
