@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*::selection {
+  background-color: #231f20;
+  color: #fdf9ec;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fdf9ec;
+}
+
+body {
+  background-color: #fdf9ec;
+  font-family: "HelvenicaNowDisplayLight";
+}
+
+/* helvetica */
+
+@font-face {
+  font-family: "HelvenicaNowDisplayLight";
+  src: local("HelvenicaNowDisplayLight"),
+    url("./assets/fonts/HelveticaNowDisplay-Light.ttf");
+}
+
+.helv-light {
+  font-family: "HelvenicaNowDisplayLight";
+}
+
+@font-face {
+  font-family: "HelvenicaNowDisplayRegular";
+  src: local("HelvenicaNowDisplayRegular"),
+    url("./assets/fonts/HelveticaNowDisplay-Regular.ttf");
+}
+
+.helv-regular {
+  font-family: "HelvenicaNowDisplayRegular";
+}
+
+@font-face {
+  font-family: "HelvenicaNowDisplayMedium";
+  src: local("HelvenicaNowDisplayMedium"),
+    url("./assets/fonts/HelveticaNowDisplay-Medium.ttf");
+}
+
+.helv-medium {
+  font-family: "HelvenicaNowDisplayMedium";
+}
+
+@font-face {
+  font-family: "HelvenicaNowDisplayBold";
+  src: local("HelvenicaNowDisplayBold"),
+    url("./assets/fonts/HelveticaNowDisplay-Bold.ttf");
+}
+
+.helv-bold {
+  font-family: "HelvenicaNowDisplayBold";
+}
+
+/* made mirage */
+
+@font-face {
+  font-family: "MadeMirageRegular";
+  src: local("MadeMirageRegular"), url("./assets/fonts/MADEMirage-Regular.otf");
+}
+
+.made-regular {
+  font-family: "MadeMirageRegular";
+}
+
+@font-face {
+  font-family: "MadeMirageMedium";
+  src: local("MadeMirageMedium"), url("./assets/fonts/MADEMirage-Medium.otf");
+}
+
+.made-medium {
+  font-family: "MadeMirageMedium";
+}
+
+@font-face {
+  font-family: "MadeMirageBold";
+  src: local("MadeMirageBold"), url("./assets/fonts/MADEMirage-Bold.otf");
+}
+
+.made-bold {
+  font-family: "MadeMirageBold";
+}
