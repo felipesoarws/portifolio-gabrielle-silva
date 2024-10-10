@@ -1,13 +1,18 @@
 // assets
 import aboutme from "../assets/aboutme_photo.png";
+import artdirector from "../assets/artdirector_circle.png";
 
 const AboutMe = () => {
   return (
     <div className="h-[100vh] mx-8 flex flex-col items-center justify-center lg:flex-row lg:items-start lg:gap-[3vw] lg:mt-[1rem] lg:mx-0">
-      <div className="lg:w-[50vw] flex items-end justify-end lg:translate-y-[-1.5vw]">
+      <div className="relative lg:w-[50vw] flex items-end justify-end lg:translate-y-[-1.5vw]">
         <img
           src={aboutme}
           className="pointer-events-none  lg:my-[2vw] lg:w-[33vw] min-[1440px]:w-[35vw]"
+        />
+        <img
+          src={artdirector}
+          className="animate-[rotate_8s_linear_infinite] pointer-events-none absolute w-20 top-[2rem] right-[5rem] md:w-40 md:right-[9rem] lg:top-[5vw] lg:right-[7vw] lg:w-[10vw]"
         />
       </div>
       <div className="text-center gap-6 lg:w-[50vw] flex flex-col lg:gap-[3vw] lg:text-left">
