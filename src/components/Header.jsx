@@ -1,5 +1,7 @@
 import { useEffect } from "react";
 
+import Menu from "./Menu";
+
 // assets
 import star from "../assets/star_main.png";
 
@@ -12,6 +14,7 @@ const Header = () => {
   }, []);
   return (
     <header className="h-[95vh] flex items-center justify-center">
+      <Menu />
       <div className="">
         <div className="relative flex items-center justify-center">
           <h1
@@ -32,7 +35,7 @@ const Header = () => {
             <span
               data-aos="fade-up"
               data-aos-duration="1000"
-              className="made-medium text-[#231F20] rounded-[.6rem] px-[.6rem] py-[.05rem] border-[1px] border-solid border-[#231f2093] lg:px-[.8vw] lg:py-[.2vw] lg:rounded-[.8vw] lg:text-[1.1vw]"
+              className="made-medium text-[#231F20] bg-[#fdf9ec] rounded-[.6rem] px-[.6rem] py-[.05rem] border-[1px] border-solid border-[#231f2093] lg:px-[.8vw] lg:py-[.2vw] lg:rounded-[.8vw] lg:text-[1.1vw]"
             >
               video editor
             </span>

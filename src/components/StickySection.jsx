@@ -18,7 +18,6 @@ import Skill from "./itens/Skill";
 
 // assets
 import sticky_photo from "../assets/sticky_photo.png";
-import photographer from "../assets/photographer_circle.png";
 import blur from "../assets/blur_title.png";
 
 const StickySection = () => {
@@ -29,7 +28,7 @@ const StickySection = () => {
   return (
     <div className="flex min-h-screen mx-4 lg:mx-0 lg:my-[2vw] lg:w-[99vw]">
       <div className="flex flex-col box-border overflow-hidden items-end text-right mr-4 mt-5 gap-10 lg:gap-[8vw] lg:w-[50vw] lg:px-[3vw] lg:py-[1vw] lg:mr-[5vw] lg:mt-0">
-        <section className="experiences">
+        <section className="experiences" id="experiencias">
           <div className="lg:mb-[2vw]">
             <Title name={"experiências"} />
           </div>
@@ -56,7 +55,7 @@ const StickySection = () => {
             />
           </div>
         </section>
-        <section className="education">
+        <section className="education" id="educacoes">
           <div className="lg:mb-[2vw]">
             <Title name={"educações"} />
           </div>
@@ -83,7 +82,7 @@ const StickySection = () => {
             />
           </div>
         </section>
-        <section className="skills">
+        <section className="skills" id="skills">
           <div className="lg:mb-[2vw]">
             <Title name={"skills"} />
           </div>
