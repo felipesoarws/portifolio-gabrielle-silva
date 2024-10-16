@@ -61,6 +61,11 @@ const StickySection = () => {
           </div>
           <div className="flex flex-col gap-4 lg:gap-[3vw]">
             <Item
+              title={"Crazy Cow Films"}
+              subtitle={"Montagem na Prática"}
+              years={"2024"}
+            />
+            <Item
               title={"Domestika"}
               subtitle={"Edição e Narrativa Audiovisual para curta metragem"}
               years={"2021"}
@@ -70,11 +75,7 @@ const StickySection = () => {
               subtitle={"Simpósio Mulheres no Audiovisual"}
               years={"2021"}
             />
-            <Item
-              title={"Crazy Cow Films"}
-              subtitle={"Montagem na Prática"}
-              years={"2021"}
-            />
+
             <Item
               title={"Anhembi Morumbi"}
               subtitle={"Rádio, Televisão & Comunicação Digital"}
