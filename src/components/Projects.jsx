@@ -24,48 +24,22 @@ const Projects = () => {
         </h3>
       </div>
       <div className="flex flex-wrap items-center justify-center gap-8 lg:gap-[4vw]">
-        <Link to={`/works/${projects[0].slug}`}>
-          <ProjectItem
-            title={projects[0].title}
-            subtitle={projects[0].desc}
-            background={projects[0].background}
-          />
-        </Link>
-        <Link to={`/works/${projects[1].slug}`}>
-          <ProjectItem
-            title={projects[1].title}
-            subtitle={projects[1].desc}
-            background={projects[1].background}
-          />
-        </Link>
-        <Link to={`/works/${projects[2].slug}`}>
-          <ProjectItem
-            title={projects[2].title}
-            subtitle={projects[2].desc}
-            background={projects[2].background}
-          />
-        </Link>
-        <Link to={`/works/${projects[3].slug}`}>
-          <ProjectItem
-            title={projects[3].title}
-            subtitle={projects[3].desc}
-            background={projects[3].background}
-          />
-        </Link>
-        <Link to={`/works/${projects[4].slug}`}>
-          <ProjectItem
-            title={projects[4].title}
-            subtitle={projects[4].desc}
-            background={projects[4].background}
-          />
-        </Link>
+        {projects.map((item) => (
+          <Link to={`/works/${item.slug}`} key={item.id}>
+            <ProjectItem
+              title={item.title}
+              subtitle={item.desc}
+              background={item.background}
+            />
+          </Link>
+        ))}
 
         <div
           className="text-center flex flex-col justify-center gap-2 md:w-[40rem] lg:text-right lg:gap-[1vw] lg:w-[32.5vw]"
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          <div>
+          <div className="text-center">
             <h3 className="made-medium lg:text-[1.8vw]">
               Quer dar uma olhada em mais projetos?
             </h3>
@@ -73,7 +47,7 @@ const Projects = () => {
               Veja meu Behance e/ou meu LinkedIn! ;)
             </p>
           </div>
-          <div className="flex gap-4 mb-8 justify-center lg:justify-end">
+          <div className="flex gap-4 mb-8 justify-center">
             <a href="https://www.behance.net/gabriellesilva_" target="_blank">
               <BehanceLogo
                 size={32}
@@ -107,7 +81,7 @@ const Projects = () => {
       </div>
       <div className="flex flex-wrap items-center justify-center gap-8 lg:gap-[4vw]">
         {photos.map((item) => (
-          <Link to={`/works/${item.slug}`} key={item.id}>
+          <Link to={`/photos/${item.slug}`} key={item.id}>
             <ProjectItem
               title={item.title}
               subtitle={item.desc}

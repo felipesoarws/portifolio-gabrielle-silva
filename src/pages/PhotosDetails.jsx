@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 
-import data from "../data/projects.json";
+import data from "../data/photos.json";
 
 const PhotosDetails = () => {
   const [projectData, setProjectData] = useState([]);
@@ -16,8 +16,6 @@ const PhotosDetails = () => {
       }
     }
   }, [id]);
-
-  console.log(projectData);
 
   return (
     <div>

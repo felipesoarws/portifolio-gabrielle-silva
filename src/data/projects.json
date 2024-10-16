@@ -33,5 +33,12 @@
     "slug": "novartis-caminhos-multiplos",
     "desc": "Identidade visual",
     "background": "/img/projects/novartis/cover.png"
+  },
+  {
+    "id": 6,
+    "title": "Daiichi Sankyo | Setembro amarelo",
+    "slug": "daiichi-setembro-amarelo",
+    "desc": "Identidade visual",
+    "background": "/img/projects/set-amarelo/cover.png"
   }
 ]

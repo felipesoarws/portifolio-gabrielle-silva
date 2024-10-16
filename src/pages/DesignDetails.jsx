@@ -17,8 +17,6 @@ const DesignDetails = () => {
     }
   }, [id]);
 
-  console.log(projectData);
-
   return (
     <div>
       {projectData.map((item, i) => (
