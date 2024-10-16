@@ -1,26 +1,36 @@
 [
   {
+    "id": 1,
     "title": "Hirudoid | Leve essa marca na memória",
+    "slug": "hirudoid-leve-essa-marca-na-memoria",
     "desc": "Identidade visual",
     "background": "/img/projects/hiru-lsmnv/cover.png"
   },
   {
+    "id": 2,
     "title": "Hirudoid | Sua marca no verão",
+    "slug": "hirudoid-verao",
     "desc": "Identidade visual",
     "background": "/img/projects/hiru-verao/cover.png"
   },
   {
+    "id": 3,
     "title": "Astellas | Que calor é esse?",
+    "slug": "astellas-que-calor-e-esse",
     "desc": "Identidade visual",
     "background": "/img/projects/astellas/cover.png"
   },
   {
+    "id": 4,
     "title": "AstraZeneca | Raras",
+    "slug": "astrazeneca-raras",
     "desc": "Identidade visual",
     "background": "/img/projects/azt/cover.png"
   },
   {
+    "id": 5,
     "title": "Novartis | Caminhos múltiplos",
+    "slug": "novartis-caminhos-multiplos",
     "desc": "Identidade visual",
     "background": "/img/projects/novartis/cover.png"
   }

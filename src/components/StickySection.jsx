@@ -26,7 +26,7 @@ const StickySection = () => {
   }, []);
 
   return (
-    <div className="flex min-h-screen mx-4 lg:mx-0 lg:my-[2vw] lg:w-[99vw]">
+    <div className="flex min-h-screen mx-4 my-8 lg:mx-0 lg:my-[2vw] lg:w-[99vw]">
       <div className="flex flex-col box-border overflow-hidden items-end text-right mr-4 mt-5 gap-10 lg:gap-[8vw] lg:w-[50vw] lg:px-[3vw] lg:py-[1vw] lg:mr-[5vw] lg:mt-0">
         <section className="experiences" id="experiencias">
           <div className="lg:mb-[2vw]">

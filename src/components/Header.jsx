@@ -28,6 +28,8 @@ const Header = () => {
             src={star}
             alt=""
             className="-z-10 absolute top-0 right-0 translate-x-[1rem] translate-y-[-3rem] scale-75  md:translate-y-[-1.5rem] lg:translate-x-[4vw] lg:translate-y-[-1vw] lg:scale-100 lg:w-[10vw]"
+            data-aos="fade-up"
+            data-aos-duration="1500"
           />
         </div>
         <div>

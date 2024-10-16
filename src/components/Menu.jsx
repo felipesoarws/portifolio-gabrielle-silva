@@ -13,7 +13,11 @@ const Menu = () => {
     }
   };
   return (
-    <div className="z-[100000000] fixed top-6 left-6 lg:top-[2vw] lg:left-[2vw] ">
+    <div
+      className="z-[100000000] fixed top-6 left-6 lg:top-[2vw] lg:left-[2vw] "
+      data-aos="fade-right"
+      data-aos-duration="1500"
+    >
       <button
         className="flex items-center justify-center transition-all duration-[0.3s] ease-[ease-in-out] helv-medium text-[3rem] text-[#FDF9EC] bg-[#231F20] rounded-full scale-[.90] p-4 w-12 h-12 lg:p-[1vw] lg:text-[3vw] lg:w-[3.5vw] lg:h-[3.5vw]  hover:scale-100"
         onClick={openMenu}
@@ -26,9 +30,9 @@ const Menu = () => {
         </div>
       </button>
       <div>
-        <nav className="bg-[#231F20]  rounded-lg lg:rounded-[.3vw]">
+        <nav className="">
           <ul
-            className="flex flex-col items-start gap-2 opacity-0 h-0 p-0 mt-1 transition-all duration-[0.3s] ease-[ease-in-out] lg:ml-[.3vw] lg:mt-[.5vw]"
+            className=" rounded-lg lg:rounded-[.3vw] flex flex-col items-start bg-[#231F20] gap-2 opacity-0 h-0 p-0 mt-1 transition-all duration-[0.3s] ease-[ease-in-out] lg:ml-[.3vw] lg:mt-[.5vw]"
             ref={menuRef}
           >
             <li className="helv-medium">

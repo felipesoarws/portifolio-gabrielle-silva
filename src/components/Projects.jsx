@@ -1,8 +1,11 @@
+import { Link } from "react-router-dom";
+
 // assets
 import blur from "../assets/blur_title.png";
 
 // data
 import projects from "../data/projects.json";
+import photos from "../data/photos.json";
 
 //icons
 import { BehanceLogo, LinkedinLogo } from "@phosphor-icons/react";
@@ -13,7 +16,7 @@ const Projects = () => {
       <div className="flex flex-col items-center justify-center" id="projetos">
         <Title name={"Projetos"} />
         <h3
-          className="made-medium lg:text-[2vw]"
+          className="made-medium my-4 lg:text-[2vw]"
           data-aos="fade-up"
           data-aos-duration="1500"
         >
@@ -21,31 +24,42 @@ const Projects = () => {
         </h3>
       </div>
       <div className="flex flex-wrap items-center justify-center gap-8 lg:gap-[4vw]">
-        <ProjectItem
-          title={projects[0].title}
-          subtitle={projects[0].desc}
-          background={projects[0].background}
-        />
-        <ProjectItem
-          title={projects[1].title}
-          subtitle={projects[1].desc}
-          background={projects[1].background}
-        />
-        <ProjectItem
-          title={projects[2].title}
-          subtitle={projects[2].desc}
-          background={projects[2].background}
-        />
-        <ProjectItem
-          title={projects[3].title}
-          subtitle={projects[3].desc}
-          background={projects[3].background}
-        />
-        <ProjectItem
-          title={projects[4].title}
-          subtitle={projects[4].desc}
-          background={projects[4].background}
-        />
+        <Link to={`/works/${projects[0].slug}`}>
+          <ProjectItem
+            title={projects[0].title}
+            subtitle={projects[0].desc}
+            background={projects[0].background}
+          />
+        </Link>
+        <Link to={`/works/${projects[1].slug}`}>
+          <ProjectItem
+            title={projects[1].title}
+            subtitle={projects[1].desc}
+            background={projects[1].background}
+          />
+        </Link>
+        <Link to={`/works/${projects[2].slug}`}>
+          <ProjectItem
+            title={projects[2].title}
+            subtitle={projects[2].desc}
+            background={projects[2].background}
+          />
+        </Link>
+        <Link to={`/works/${projects[3].slug}`}>
+          <ProjectItem
+            title={projects[3].title}
+            subtitle={projects[3].desc}
+            background={projects[3].background}
+          />
+        </Link>
+        <Link to={`/works/${projects[4].slug}`}>
+          <ProjectItem
+            title={projects[4].title}
+            subtitle={projects[4].desc}
+            background={projects[4].background}
+          />
+        </Link>
+
         <div
           className="text-center flex flex-col justify-center gap-2 md:w-[40rem] lg:text-right lg:gap-[1vw] lg:w-[32.5vw]"
           data-aos="fade-up"
@@ -59,22 +73,32 @@ const Projects = () => {
               Veja meu Behance e/ou meu LinkedIn! ;)
             </p>
           </div>
-          <div className="flex gap-4 justify-center lg:justify-end">
+          <div className="flex gap-4 mb-8 justify-center lg:justify-end">
             <a href="https://www.behance.net/gabriellesilva_" target="_blank">
-              <BehanceLogo size={32} color="#231f20" weight="bold" />
+              <BehanceLogo
+                size={32}
+                color="#231f20"
+                weight="bold"
+                className="transition-all duration-[0.3s] ease-[ease-in-out] hover:scale-105"
+              />
             </a>
             <a
               href="https://www.linkedin.com/in/gabrielle-silva-b59b771a1/"
               target="_blank"
             >
-              <LinkedinLogo size={32} color="#231f20" weight="fill" />
+              <LinkedinLogo
+                size={32}
+                color="#231f20"
+                weight="fill"
+                className="transition-all duration-[0.3s] ease-[ease-in-out] hover:scale-105"
+              />
             </a>
           </div>
         </div>
       </div>
       <div className="flex flex-col items-center justify-center" id="projetos">
         <h3
-          className="made-medium lg:text-[2vw]"
+          className="made-medium my-4 lg:text-[2vw]"
           data-aos="fade-up"
           data-aos-duration="1500"
         >
@@ -82,11 +106,15 @@ const Projects = () => {
         </h3>
       </div>
       <div className="flex flex-wrap items-center justify-center gap-8 lg:gap-[4vw]">
-        {/*   <ProjectItem
-          title={projects[0].title}
-          subtitle={projects[0].desc}
-          background={projects[0].background}
-        /> */}
+        {photos.map((item) => (
+          <Link to={`/works/${item.slug}`} key={item.id}>
+            <ProjectItem
+              title={item.title}
+              subtitle={item.desc}
+              background={item.background}
+            />
+          </Link>
+        ))}
       </div>
     </div>
   );

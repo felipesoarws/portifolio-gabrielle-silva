@@ -25,6 +25,8 @@ const AboutMe = () => {
         <img
           src={artdirector}
           className="animate-[rotate_8s_linear_infinite] pointer-events-none absolute w-20 top-[2rem] right-[5rem] md:w-40 md:right-[9rem] lg:top-[5vw] lg:right-[7vw] lg:w-[10vw]"
+          data-aos="fade-right"
+          data-aos-duration="1500"
         />
       </div>
       <div className="text-center mx-4 gap-6 flex flex-col md:mx-24 lg:w-[50vw] lg:gap-[3vw] lg:text-left lg:md:mx-0">

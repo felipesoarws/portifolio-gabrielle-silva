@@ -126,13 +126,6 @@ body {
   padding: 1rem;
 }
 
-@media (min-width: 1024px) {
-  .menu-opened {
-    height: 20vh;
-    padding: 0.8vw 0.8vw 0.8vw 0.4vw;
-  }
-}
-
 nav a.hover-effect::before {
   content: "";
   position: absolute;
