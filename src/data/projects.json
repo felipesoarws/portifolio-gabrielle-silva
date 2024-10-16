@@ -4,41 +4,59 @@
     "title": "Hirudoid | Leve essa marca na memória",
     "slug": "hirudoid-leve-essa-marca-na-memoria",
     "desc": "Identidade visual",
-    "background": "/img/projects/hiru-lsmnv/cover.png"
+    "background": "/img/projects/hiru-lsmnv/cover.png",
+
+    "secondTitle": "Hirudoid",
+    "projectTitle": "Leve essa marca na memória"
   },
   {
     "id": 2,
     "title": "Hirudoid | Sua marca no verão",
     "slug": "hirudoid-verao",
     "desc": "Identidade visual",
-    "background": "/img/projects/hiru-verao/cover.png"
+    "background": "/img/projects/hiru-verao/cover.png",
+
+    "secondTitle": "Hirudoid",
+    "projectTitle": "Sua marca no verão"
   },
   {
     "id": 3,
     "title": "Astellas | Que calor é esse?",
     "slug": "astellas-que-calor-e-esse",
     "desc": "Identidade visual",
-    "background": "/img/projects/astellas/cover.png"
+    "background": "/img/projects/astellas/cover.png",
+    "secondTitle": "Astellas",
+    "projectTitle": "Que calor é esse?"
   },
   {
     "id": 4,
     "title": "AstraZeneca | Raras",
     "slug": "astrazeneca-raras",
     "desc": "Identidade visual",
-    "background": "/img/projects/azt/cover.png"
+    "background": "/img/projects/azt/cover.png",
+    "secondTitle": "AstraZeneca",
+    "projectTitle": "Raras"
   },
   {
     "id": 5,
     "title": "Novartis | Caminhos múltiplos",
     "slug": "novartis-caminhos-multiplos",
     "desc": "Identidade visual",
-    "background": "/img/projects/novartis/cover.png"
+    "background": "/img/projects/novartis/cover.png",
+    "secondTitle": "Novartis",
+    "projectTitle": "Caminhos múltiplos"
   },
   {
     "id": 6,
-    "title": "Daiichi Sankyo | Setembro amarelo",
+    "title": "Daiichi Sankyo | Setembro Amarelo",
     "slug": "daiichi-setembro-amarelo",
     "desc": "Identidade visual",
-    "background": "/img/projects/set-amarelo/cover.png"
+    "background": "/img/projects/set-amarelo/cover.png",
+    "secondTitle": "aiichi Sankyo ",
+    "projectTitle": "Setembro Amarelo",
+    "assets": {
+      "photos": [["/img/projects/set-amarelo/video.mp4"]],
+      "videos": [["/img/projects/set-amarelo/video.mp4"]]
+    }
   }
 ]

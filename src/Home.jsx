@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import StickySection from "./components/StickySection";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function Home() {
         </section>
         <Projects />
       </main>
+      <Footer />
     </div>
   );
 }

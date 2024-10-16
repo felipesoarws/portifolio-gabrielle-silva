@@ -145,24 +145,12 @@ button.opened span.child-1 {
   transform: translate(0.02rem, 0.57rem) rotate(45deg);
 }
 
-@media (min: 1024px) {
-  button.opened span.child-1 {
-    transform: translate(0.02vw, 0.57vw) rotate(45deg);
-  }
-}
-
 button.opened span.child-2 {
   opacity: 0;
 }
 
 button.opened span.child-3 {
   transform: translate(0.015rem, -0.5rem) rotate(-45deg);
-}
-
-@media (min: 1024px) {
-  button.opened span.child-3 {
-    transform: translate(0.02vw, -0.5vw) rotate(-45deg);
-  }
 }
 
 /* projects */
@@ -180,4 +168,42 @@ button.opened span.child-3 {
 
 .project-item:hover h3::before {
   width: 100%;
+}
+
+/* footer */
+
+@keyframes move-rtl {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animation-div:hover {
+  animation-play-state: paused;
+}
+
+/* go back */
+
+button.goback span.child-1 {
+  transform: translate(-0.09rem, 0.6rem) rotate(45deg);
+}
+
+@media (min-width: 1024px) {
+  button.goback span.child-1 {
+    transform: translate(-0.09vw, 0.6vw) rotate(45deg);
+  }
+}
+
+button.goback span.child-3 {
+  transform: translate(-0.09rem, -0.65rem) rotate(-45deg);
+}
+
+@media (min-width: 1024px) {
+  button.goback span.child-3 {
+    transform: translate(-0.09vw, -0.75vw) rotate(-45deg);
+  }
 }

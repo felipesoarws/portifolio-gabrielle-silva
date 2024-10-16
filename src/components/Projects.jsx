@@ -20,7 +20,7 @@ const Projects = () => {
           data-aos="fade-up"
           data-aos-duration="1500"
         >
-          Designs ;)
+          Audiovisual ;)
         </h3>
       </div>
       <div className="flex flex-wrap items-center justify-center gap-8 lg:gap-[4vw]">
@@ -76,7 +76,7 @@ const Projects = () => {
           data-aos="fade-up"
           data-aos-duration="1500"
         >
-          Audiovisual ;)
+          Fotografia ;)
         </h3>
       </div>
       <div className="flex flex-wrap items-center justify-center gap-8 lg:gap-[4vw]">
@@ -121,7 +121,7 @@ const ProjectItem = ({ title, subtitle, background }) => {
         <img
           src={background}
           alt="cover project"
-          className="h-[10.3rem] object-cover rounded-[.5rem] transition-all duration-[.3s] ease-in-out lg:rounded-[.8vw] lg:w-[33vw] lg:h-[17vw] hover:scale-105"
+          className="w-[20rem] h-[10.3rem] object-cover rounded-[.5rem] transition-all duration-[.3s] ease-in-out lg:rounded-[.8vw] lg:w-[33vw] lg:h-[17vw] hover:scale-105"
         />
       </div>
 
