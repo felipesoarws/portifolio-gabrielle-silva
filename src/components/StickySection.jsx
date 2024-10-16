@@ -30,18 +30,13 @@ const StickySection = () => {
       <div className="flex flex-col box-border overflow-hidden items-end text-right mr-4 mt-5 gap-10 lg:gap-[8vw] lg:w-[50vw] lg:px-[3vw] lg:py-[1vw] lg:mr-[5vw] lg:mt-0">
         <section className="experiences" id="experiencias">
           <div className="lg:mb-[2vw]">
-            <Title name={"experiências"} />
+            <Title name={"Experiências"} />
           </div>
           <div className="flex flex-col gap-4 lg:gap-[3vw]">
             <Item
               title={"SwordFish Brasil"}
               subtitle={"Diretora de Arte"}
               years={"2021 - Até o momento"}
-            />
-            <Item
-              title={"Ampli Comunicação"}
-              subtitle={"Produtora audiovisual & Editora de vídeo"}
-              years={"2015 - 2020"}
             />
             <Item
               title={"SuperCinema"}
@@ -53,18 +48,18 @@ const StickySection = () => {
               subtitle={"Fotógrafa"}
               years={"2019 - 2020"}
             />
+            <Item
+              title={"Ampli Comunicação"}
+              subtitle={"Produtora audiovisual & Editora de vídeo"}
+              years={"2015 - 2020"}
+            />
           </div>
         </section>
         <section className="education" id="educacoes">
           <div className="lg:mb-[2vw]">
-            <Title name={"educações"} />
+            <Title name={"Educações"} />
           </div>
           <div className="flex flex-col gap-4 lg:gap-[3vw]">
-            <Item
-              title={"Anhembi Morumbi"}
-              subtitle={"Rádio, Televisão & Comunicação Digital"}
-              years={"2017 - 2020"}
-            />
             <Item
               title={"Domestika"}
               subtitle={"Edição e Narrativa Audiovisual para curta metragem"}
@@ -80,11 +75,16 @@ const StickySection = () => {
               subtitle={"Montagem na Prática"}
               years={"2021"}
             />
+            <Item
+              title={"Anhembi Morumbi"}
+              subtitle={"Rádio, Televisão & Comunicação Digital"}
+              years={"2017 - 2020"}
+            />
           </div>
         </section>
         <section className="skills" id="skills">
           <div className="lg:mb-[2vw]">
-            <Title name={"skills"} />
+            <Title name={"Skills"} />
           </div>
           <div className="flex flex-col gap-4 lg:gap-[3vw]">
             <Skill icon={photoshop} name={"Photoshop"} />

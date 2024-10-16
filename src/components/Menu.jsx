@@ -36,7 +36,7 @@ const Menu = () => {
                 className="hover-effect relative  text-[#fdf9ec] pb-1"
                 href="#sobre"
               >
-                sobre mim
+                Sobre mim
               </a>
             </li>
             <li className="helv-medium">
@@ -44,7 +44,7 @@ const Menu = () => {
                 className="hover-effect relative  text-[#fdf9ec] pb-1"
                 href="#experiencias"
               >
-                experiências
+                Experiências
               </a>
             </li>
             <li className="helv-medium">
@@ -52,7 +52,7 @@ const Menu = () => {
                 className="hover-effect relative  text-[#fdf9ec] pb-1"
                 href="#educacoes"
               >
-                educações
+                Educações
               </a>
             </li>
             <li className="helv-medium">
@@ -60,7 +60,7 @@ const Menu = () => {
                 className="hover-effect relative  text-[#fdf9ec] pb-1"
                 href="#skills"
               >
-                skills
+                Skills
               </a>
             </li>
             <li className="helv-medium">
@@ -68,7 +68,7 @@ const Menu = () => {
                 className="hover-effect relative  text-[#fdf9ec] pb-1"
                 href="#projetos"
               >
-                projetos
+                Projetos
               </a>
             </li>
           </ul>

@@ -6,7 +6,7 @@ import Projects from "./components/Projects";
 
 function App() {
   return (
-    <>
+    <div className="lg:pb-[4vw]">
       <Header />
       <main>
         <AboutMe />
@@ -23,7 +23,7 @@ function App() {
         </section>
         <Projects />
       </main>
-    </>
+    </div>
   );
 }
 

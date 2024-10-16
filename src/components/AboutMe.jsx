@@ -27,34 +27,48 @@ const AboutMe = () => {
           className="animate-[rotate_8s_linear_infinite] pointer-events-none absolute w-20 top-[2rem] right-[5rem] md:w-40 md:right-[9rem] lg:top-[5vw] lg:right-[7vw] lg:w-[10vw]"
         />
       </div>
-      <div className="text-center gap-6 flex flex-col md:mx-24 lg:w-[50vw] lg:gap-[3vw] lg:text-left lg:md:mx-0">
+      <div className="text-center mx-4 gap-6 flex flex-col md:mx-24 lg:w-[50vw] lg:gap-[3vw] lg:text-left lg:md:mx-0">
         <p
-          className="helv-light text-[#231F20] md:text-[2rem] lg:text-[2.2vw] lg:mr-[8vw] min-[1440px]:text-[2vw] min-[1440px]:mr-[12vw]"
+          className="helv-light text-[#231F20] md:text-[2rem] lg:text-[2vw] lg:mr-[8vw] min-[1440px]:text-[1.5vw] min-[1440px]:mr-[12vw]"
           data-aos="fade-up"
           data-aos-duration="1000"
         >
-          Meu nome é Gabrielle, tenho <span className="helv-bold">25 anos</span>
-          , moro em <span className="helv-bold">São Paulo</span>, e trabalho
-          como <span className="helv-bold">diretora de arte</span>.
+          Com{" "}
+          <span className="helv-bold">
+            7 anos de experiência no audiovisual
+          </span>
+          , comecei minha carreira na fotografia e logo migrei para a edição de
+          vídeo, unindo narrativa e estética visual.
         </p>
 
         <p
-          className="helv-light text-[#231F20] md:text-[2rem] lg:text-[2.2vw] lg:mr-[8vw] min-[1440px]:text-[2vw] min-[1440px]:mr-[12vw]"
+          className="helv-light text-[#231F20] md:text-[2rem] lg:text-[2vw] lg:mr-[8vw] min-[1440px]:text-[1.5vw] min-[1440px]:mr-[12vw]"
           data-aos="fade-up"
           data-aos-duration="1500"
         >
-          Desde o início me encontrei na área do design, sempre procurando
-          identificar novas soluções de maneira criativa e inspiradora.
+          Ao longo da minha trajetória, atuei em diversas áreas, como vídeos
+          publicitários, entrevistas e motion graphics, sempre focando em
+          qualidade e criatividade.
         </p>
 
         <p
-          className="helv-light text-[#231F20] md:text-[2rem] lg:text-[2.2vw] lg:mr-[8vw] min-[1440px]:text-[2vw] min-[1440px]:mr-[13vw] "
+          className="helv-light text-[#231F20] md:text-[2rem] lg:text-[2vw] lg:mr-[8vw] min-[1440px]:text-[1.5vw] min-[1440px]:mr-[13vw] "
           data-aos="fade-up"
           data-aos-duration="2000"
         >
-          Também atuo como <span className="helv-bold">fotógrafa</span>,
-          explorando diferentes perspectivas e técnicas para capturar momentos
-          únicos.
+          Hoje, sou <span className="helv-bold">Diretora de Arte </span>
+          no segmento health, utilizando minha expertise em edição de vídeo e
+          design para criar soluções visuais que combinam estética e estratégia.
+        </p>
+        <p
+          className="helv-light text-[#231F20] md:text-[2rem] lg:text-[2vw] lg:mr-[8vw] min-[1440px]:text-[1.5vw] min-[1440px]:mr-[13vw] "
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          Sou uma profissional <span className="helv-bold">versátil</span>,{" "}
+          <span className="helv-bold">curiosa</span> e{" "}
+          <span className="helv-bold">dedicada</span> à busca constante por
+          inovação.
         </p>
       </div>
     </div>
