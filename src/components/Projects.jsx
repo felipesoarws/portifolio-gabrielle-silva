@@ -5,7 +5,7 @@ import blur from "../assets/blur_title.png";
 
 // data
 import projects from "../data/projects.json";
-import photos from "../data/photos.json";
+console.log(projects);
 
 //icons
 import { BehanceLogo, LinkedinLogo } from "@phosphor-icons/react";
@@ -24,7 +24,7 @@ const Projects = () => {
         </h3>
       </div>
       <div className="flex flex-wrap items-center justify-center gap-8 lg:gap-[4vw]">
-        {projects.map((item) => (
+        {projects[0].map((item) => (
           <Link to={`/works/${item.slug}`} key={item.id}>
             <ProjectItem
               title={item.title}
@@ -80,8 +80,8 @@ const Projects = () => {
         </h3>
       </div>
       <div className="flex flex-wrap items-center justify-center gap-8 lg:gap-[4vw]">
-        {photos.map((item) => (
-          <Link to={`/photos/${item.slug}`} key={item.id}>
+        {projects[1].map((item) => (
+          <Link to={`/works/${item.slug}`} key={item.id}>
             <ProjectItem
               title={item.title}
               subtitle={item.desc}
