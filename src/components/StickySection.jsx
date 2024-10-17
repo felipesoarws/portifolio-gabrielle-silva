@@ -12,10 +12,6 @@ import indesign from "../assets/icons/indesign.png";
 import figma from "../assets/icons/figma.png";
 import finalcut from "../assets/icons/finalcut.png";
 
-// components
-import Item from "./itens/Item";
-import Skill from "./itens/Skill";
-
 // assets
 import sticky_photo from "../assets/sticky_photo.png";
 import blur from "../assets/blur_title.png";
@@ -79,6 +75,7 @@ const StickySection = () => {
             <Item
               title={"Anhembi Morumbi"}
               subtitle={"Rádio, Televisão & Comunicação Digital"}
+              type={"Bacharelado"}
               years={"2017 - 2020"}
             />
           </div>
@@ -122,6 +119,50 @@ const Title = ({ name }) => {
           className="pointer-events-none absolute top-[-.5rem] right-[-.6rem] w-[3rem] lg:top-[-1.1vw] lg:w-[5.5vw] lg:right-[-2.9vw] min-[1440px]:right-[-2.4vw] min-[1440px]:top-[-.7vw]"
         />
       </h2>
+    </div>
+  );
+};
+
+const Item = ({ title, subtitle, type, years }) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+  return (
+    <div
+      className="flex flex-col leading-8 lg:leading-[4vw]"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+      <h3 className="helv-bold text-[1.2rem] lg:text-[2.5vw]">{title}</h3>
+      <h3 className="helv-regular  text-[#929292]  text-[1rem]  leading-[1rem] translate-y-[-.2rem] lg:text-[1.7vw] lg:leading-[2vw]  lg:translate-y-[-.5vw]">
+        {type}
+      </h3>
+      <h4 className="helv-light text-[1rem] leading-4 lg:text-[2.2vw] lg:translate-y-[-.3vw] lg:w-[28vw] lg:leading-[2.5vw]">
+        {subtitle}
+      </h4>
+      <p className="helv-regular text-[#929292] text-[.8rem] lg:text-[1.5vw]">
+        {years}
+      </p>
+    </div>
+  );
+};
+
+const Skill = ({ icon, name }) => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+  return (
+    <div
+      className="flex items-center justify-end gap-2 lg:gap-[1vw]"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+      <span className="helv-medium text-[1.1rem] lg:text-[3vw]">{name}</span>
+      <img
+        src={icon}
+        alt={name}
+        className="w-8 lg:w-[4vw] pointer-events-none"
+      />
     </div>
   );
 };

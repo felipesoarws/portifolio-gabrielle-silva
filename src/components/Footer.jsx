@@ -6,9 +6,9 @@ const Footer = () => {
   const inHome = window.location.href.indexOf("works") != -1;
 
   return (
-    <footer>
+    <footer className="">
       {!inHome && (
-        <div className="flex flex-col items-center justify-center lg:flex-row lg:items-start lg:justify-between lg:mx-[8vw] lg:mt-[8vw]">
+        <div className=" flex flex-col items-center justify-center lg:flex-row lg:items-start lg:justify-between lg:mx-[8vw] lg:mt-[8vw]">
           <div className="flex flex-col gap-8 lg:flex-row lg:items-start lg:gap-[8vw]">
             <div className="flex flex-col items-center justify-center lg:items-start lg:justify-start">
               <img

@@ -20,11 +20,11 @@ const Projects = () => {
           data-aos="fade-up"
           data-aos-duration="1500"
         >
-          Audiovisual ;)
+          publicidade ;)
         </h3>
       </div>
       <div className="flex flex-wrap items-center justify-center gap-8 lg:gap-[4vw]">
-        {projects[0].map((item) => (
+        {projects[0].slice(0, 4).map((item) => (
           <Link to={`/works/${item.slug}`} key={item.id}>
             <ProjectItem
               title={item.title}
@@ -33,42 +33,6 @@ const Projects = () => {
             />
           </Link>
         ))}
-
-        <div
-          className="text-center flex flex-col justify-center gap-2 md:w-[40rem] lg:text-right lg:gap-[1vw] lg:w-[32.5vw]"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
-          <div className="text-center">
-            <h3 className="made-medium lg:text-[1.8vw]">
-              Quer dar uma olhada em mais projetos?
-            </h3>
-            <p className="helv-regular text-[#929292] lg:text-[1.2vw]">
-              Veja meu Behance e/ou meu LinkedIn! ;)
-            </p>
-          </div>
-          <div className="flex gap-4 mb-8 justify-center">
-            <a href="https://www.behance.net/gabriellesilva_" target="_blank">
-              <BehanceLogo
-                size={32}
-                color="#231f20"
-                weight="bold"
-                className="transition-all duration-[0.3s] ease-[ease-in-out] hover:scale-105"
-              />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/gabrielle-silva-b59b771a1/"
-              target="_blank"
-            >
-              <LinkedinLogo
-                size={32}
-                color="#231f20"
-                weight="fill"
-                className="transition-all duration-[0.3s] ease-[ease-in-out] hover:scale-105"
-              />
-            </a>
-          </div>
-        </div>
       </div>
       <div className="flex flex-col items-center justify-center" id="projetos">
         <h3
@@ -76,11 +40,11 @@ const Projects = () => {
           data-aos="fade-up"
           data-aos-duration="1500"
         >
-          Fotografia ;)
+          audiovisual ;)
         </h3>
       </div>
       <div className="flex flex-wrap items-center justify-center gap-8 lg:gap-[4vw]">
-        {projects[1].map((item) => (
+        {projects[1].slice(0, 4).map((item) => (
           <Link to={`/works/${item.slug}`} key={item.id}>
             <ProjectItem
               title={item.title}
@@ -89,6 +53,41 @@ const Projects = () => {
             />
           </Link>
         ))}
+      </div>
+      <div
+        className="text-center flex flex-col justify-center gap-2 md:w-[40rem] lg:text-right lg:gap-[1vw] lg:w-[32.5vw]"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        <div className="text-center">
+          <h3 className="made-medium lg:text-[1.8vw]">
+            Quer dar uma olhada em mais projetos?
+          </h3>
+          <p className="helv-regular text-[#929292] lg:text-[1.2vw]">
+            Veja meu Behance e/ou meu LinkedIn! ;)
+          </p>
+        </div>
+        <div className="flex gap-4 mb-8 justify-center">
+          <a href="https://www.behance.net/gabriellesilva_" target="_blank">
+            <BehanceLogo
+              size={32}
+              color="#231f20"
+              weight="bold"
+              className="transition-all duration-[0.3s] ease-[ease-in-out] hover:scale-105"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/gabrielle-silva-b59b771a1/"
+            target="_blank"
+          >
+            <LinkedinLogo
+              size={32}
+              color="#231f20"
+              weight="fill"
+              className="transition-all duration-[0.3s] ease-[ease-in-out] hover:scale-105"
+            />
+          </a>
+        </div>
       </div>
     </div>
   );
