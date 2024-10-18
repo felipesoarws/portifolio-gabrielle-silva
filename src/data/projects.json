@@ -55,7 +55,12 @@
           ["/img/projects/hiru-verao/img16.jpg"],
           ["/img/projects/hiru-verao/img17.jpg"]
         ],
-        "videos": [["/img/projects/hiru-verao/video01.mp4"]]
+        "videos": [
+          ["/img/projects/hiru-verao/video01.mp4"],
+          ["/img/projects/hiru-verao/video02.mp4"],
+          ["/img/projects/hiru-verao/video03.mp4"],
+          ["/img/projects/hiru-verao/video04.mp4"]
+        ]
       }
     },
     {
