@@ -100,7 +100,7 @@ const StickySection = () => {
         <img
           src={sticky_photo}
           alt="sticky_photo"
-          className="pointer-events-none sticky h-[95vh] object-[-11rem_top] translate-y-[1rem] top-0 object-cover rounded-[.8rem] w-[70vw] md:object-[top_center] md:h-screen md:w-[50vw] lg:translate-x-[-3vw] lg:rounded-none lg:translate-y-[0rem]"
+          className="pointer-events-none sticky h-[95vh] object-[-11rem_top] translate-y-[1rem] top-0 object-cover rounded-[.8rem] w-[70vw] md:object-[top_center] md:h-screen md:w-[50vw] lg:object-[center_center] lg:translate-x-[-3vw] lg:rounded-none lg:translate-y-[0rem]"
         />
       </div>
     </div>
