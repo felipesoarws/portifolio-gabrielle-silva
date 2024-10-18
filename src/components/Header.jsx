@@ -18,7 +18,7 @@ const Header = () => {
       <div className="">
         <div className="relative flex items-center justify-center">
           <h1
-            className="made-bold text-[#231F20] text-[4rem] md:text-[7rem] lg:text-[8vw]"
+            className=" made-bold text-[#231F20] text-[4rem] md:text-[7rem] lg:text-[8vw]"
             data-aos="zoom-in"
             data-aos-duration="1000"
           >

@@ -14,7 +14,7 @@ const Menu = () => {
   };
   return (
     <div
-      className="z-[100000000] fixed top-6 left-6 lg:top-[2vw] lg:left-[2vw] "
+      className=" menu-div z-[100] fixed top-6 left-6 lg:top-[2vw] lg:left-[2vw] "
       data-aos="fade-right"
       data-aos-duration="1500"
     >
@@ -30,9 +30,9 @@ const Menu = () => {
         </div>
       </button>
       <div>
-        <nav className="">
+        <nav>
           <ul
-            className=" rounded-lg lg:rounded-[.3vw] flex flex-col items-start bg-[#231F20] gap-2 opacity-0 h-0 p-0 mt-1 transition-all duration-[0.3s] ease-[ease-in-out] lg:ml-[.3vw] lg:mt-[.5vw]"
+            className="cursor-hover rounded-lg lg:rounded-[.3vw] flex flex-col items-start bg-[#231F20] gap-2 opacity-0 h-0 p-0 mt-1 transition-all duration-[0.3s] ease-[ease-in-out] lg:ml-[.3vw] lg:mt-[.5vw]"
             ref={menuRef}
           >
             <li className="helv-medium">

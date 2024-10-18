@@ -11,7 +11,7 @@ const GoBack = () => {
   return (
     <Link to={"/"}>
       <div
-        className="z-[100000000] fixed top-6 left-6 lg:top-[2vw] lg:left-[2vw] "
+        className="z-[1] fixed top-6 left-6 lg:top-[2vw] lg:left-[2vw] "
         data-aos="fade-right"
         data-aos-duration="1500"
       >

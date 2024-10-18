@@ -5,7 +5,6 @@ import blur from "../assets/blur_title.png";
 
 // data
 import projects from "../data/projects.json";
-console.log(projects);
 
 //icons
 import { BehanceLogo, LinkedinLogo } from "@phosphor-icons/react";
@@ -73,7 +72,7 @@ const Projects = () => {
               size={32}
               color="#231f20"
               weight="bold"
-              className="transition-all duration-[0.3s] ease-[ease-in-out] hover:scale-105"
+              className=" transition-all duration-[0.3s] ease-[ease-in-out] hover:scale-105"
             />
           </a>
           <a
@@ -114,21 +113,21 @@ const ProjectItem = ({ title, subtitle, background }) => {
     <div
       data-aos="fade-up"
       data-aos-duration="1000"
-      className="project-item flex flex-col gap-1 lg:gap-[.7vw] "
+      className="cursor-pointer project-item flex flex-col gap-1 lg:gap-[.7vw] "
     >
       <div className="cursor-pointer overflow-hidden lg:rounded-[.8vw]">
         <img
           src={background}
           alt="cover project"
-          className="w-[20rem] h-[10.3rem] object-cover rounded-[.5rem] transition-all duration-[.3s] ease-in-out lg:rounded-[.8vw] lg:w-[33vw] lg:h-[17vw] hover:scale-105"
+          className="cursor-hover w-[20rem] h-[10.3rem] object-cover rounded-[.5rem] transition-all duration-[.3s] ease-in-out lg:rounded-[.8vw] lg:w-[33vw] lg:h-[17vw] hover:scale-105"
         />
       </div>
 
       <div className="flex flex-col items-start lg:gap-[.7vw]">
-        <h3 className="cursor-pointer relative made-medium lg:text-[1.5vw] ">
+        <h3 className="cursor-hover cursor-pointer  relative made-medium lg:text-[1.5vw] ">
           {title}
         </h3>
-        <h4 className="cursor-pointer relative helv-regular text-[#929292] lg:text-[1.2vw] lg:leading-[.1vw] ">
+        <h4 className="cursor-hover cursor-pointer  relative helv-regular text-[#929292] lg:text-[1.2vw] lg:leading-[.1vw] ">
           {subtitle}
         </h4>
       </div>

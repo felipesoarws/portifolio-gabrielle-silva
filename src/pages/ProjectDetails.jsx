@@ -11,6 +11,8 @@ import GoBack from "../components/GoBack";
 const ProjectDetails = () => {
   const [projectData, setProjectData] = useState([]);
   const { id } = useParams();
+  const [isFullScreen, setIsFullScreen] = useState(false);
+  const [currentImage, setCurrentImage] = useState(null);
   const isPhotoProject = id.includes("ensaio");
 
   useEffect(() => {
@@ -28,6 +30,16 @@ const ProjectDetails = () => {
     }
     AOS.init();
   }, [id]);
+
+  const handleImageClick = (photo) => {
+    setCurrentImage(photo);
+    setIsFullScreen(true);
+  };
+
+  const handleClose = () => {
+    setIsFullScreen(false);
+    setCurrentImage(null);
+  };
 
   return (
     <div className="flex flex-col items-center justify-center mx-4 mt-[1rem] lg:gap-[5vw] lg:mt-[2vw] lg:mx-[10vw]">
@@ -52,11 +64,12 @@ const ProjectDetails = () => {
                 item.assets.photos.map((photo, id) => (
                   <img
                     data-aos="fade-up"
-                    data-aos-duration="1500"
-                    className="pointer-events-none rounded-md lg:rounded-[1vw] lg:w-[30vw]"
+                    data-aos-duration="1000"
+                    className="cursor-hover rounded-md lg:rounded-[1vw] lg:w-[30vw]"
                     src={photo}
                     alt="project img"
                     key={id}
+                    onClick={() => handleImageClick(photo)}
                   />
                 ))
               ) : (
@@ -66,11 +79,12 @@ const ProjectDetails = () => {
               item.assets.photos.map((photo, id) => (
                 <img
                   data-aos="fade-up"
-                  data-aos-duration="1500"
-                  className="pointer-events-none rounded-md lg:rounded-[1vw] lg:w-[70vw]"
+                  data-aos-duration="1000"
+                  className="cursor-hover rounded-md lg:rounded-[1vw] lg:w-[70vw]"
                   src={photo}
                   alt="project img"
                   key={id}
+                  onClick={() => handleImageClick(photo)}
                 />
               ))
             ) : (
@@ -94,6 +108,20 @@ const ProjectDetails = () => {
           </div>
         </div>
       ))}
+      {isFullScreen && (
+        <div
+          className="cursor-hover px-4 lg:gap-[5vw] lg:py-[5vw] fixed inset-0 flex justify-center items-center bg-black bg-opacity-80 z-50 trans"
+          onClick={handleClose}
+        >
+          <img
+            src={currentImage}
+            alt="FullScreen"
+            className="max-w-full max-h-full rounded-md lg:rounded-[1vw]"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          />
+        </div>
+      )}
       <Footer />
     </div>
   );
