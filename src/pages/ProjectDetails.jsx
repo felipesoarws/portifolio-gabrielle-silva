@@ -110,7 +110,7 @@ const ProjectDetails = () => {
       ))}
       {isFullScreen && (
         <div
-          className="cursor-hover px-4 lg:gap-[5vw] lg:py-[5vw] fixed inset-0 flex justify-center items-center bg-black bg-opacity-80 z-50 trans"
+          className="cursor-hover px-4 lg:gap-[5vw]  fixed inset-0 flex justify-center items-center bg-black bg-opacity-80 z-50 trans"
           onClick={handleClose}
         >
           <img
