@@ -23,5 +23,4 @@ dist-ssr
 *.sln
 *.sw?
 
-public/img
 src/data/projects.json
