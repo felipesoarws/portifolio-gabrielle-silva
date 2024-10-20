@@ -5,8 +5,7 @@ import contate from "../assets/contate_footer.png";
 const Footer = () => {
   const mainUrl = "https://gabriellesilva.vercel.app/";
 
-  /*   const inHome = mainUrl.length > 34; */
-  const inHome = mainUrl.length > 22;
+  const inHome = mainUrl.length > 34;
 
   return (
     <footer className="">
