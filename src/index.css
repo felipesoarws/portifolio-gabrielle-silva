@@ -10,14 +10,6 @@
   cursor: url("./assets/cursor.svg"), auto;
 }
 
-.cursor-hover,
-button,
-nav,
-video,
-a {
-  cursor: url("./assets/cursor-hover.svg"), pointer;
-}
-
 *::selection {
   background-color: #231f20;
   color: #fdf9ec;
@@ -128,11 +120,9 @@ body {
 
 /* menu */
 .menu-opened {
-  overflow: visible;
-  height: 12rem;
-  opacity: 1;
-  transition: all 0.3s ease-in-out;
+  height: 15.5rem;
   padding: 1rem;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 
 nav a.hover-effect::before {
@@ -144,6 +134,10 @@ nav a.hover-effect::before {
   height: 1.5px;
   background-color: #fdf9ec;
   transition: all 0.3s ease-in-out;
+}
+
+nav a.hover-effect.pink::before {
+  background-color: #f86c9a;
 }
 
 nav a.hover-effect:hover::before {
@@ -230,4 +224,23 @@ button.goback span.child-3 {
   button.goback span.child-3 {
     transform: translate(-0.09vw, -0.75vw) rotate(-45deg);
   }
+}
+
+/* lets work menu */
+.letswork-opened {
+  opacity: 1;
+  width: 100vw;
+}
+
+.letswork-opened button {
+  display: flex;
+}
+
+.letswork-opened .form-contact {
+  opacity: 1;
+  transform: translateX(0vw);
+}
+
+.no-scroll {
+  overflow: hidden;
 }

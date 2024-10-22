@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 
 import Menu from "./Menu";
+import LetsWork from "./LetsWork";
 
 // assets
 import star from "../assets/star_main.png";
@@ -15,7 +16,8 @@ const Header = () => {
   return (
     <header className="h-[95vh] flex items-center justify-center">
       <Menu />
-      <div className="">
+      {/*     <LetsWork /> */}
+      <div>
         <div className="relative flex items-center justify-center">
           <h1
             className=" made-bold text-[#231F20] text-[4rem] md:text-[7rem] lg:text-[8vw]"

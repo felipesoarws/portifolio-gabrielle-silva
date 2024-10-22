@@ -19,7 +19,7 @@ const Projects = () => {
           data-aos="fade-up"
           data-aos-duration="1500"
         >
-          publicidade ;)
+          Publicidade ;)
         </h3>
       </div>
       <div className="flex flex-wrap items-center justify-center gap-8 lg:gap-[4vw]">
@@ -39,7 +39,7 @@ const Projects = () => {
           data-aos="fade-up"
           data-aos-duration="1500"
         >
-          audiovisual ;)
+          Audiovisual ;)
         </h3>
       </div>
       <div className="flex flex-wrap items-center justify-center gap-8 lg:gap-[4vw]">
@@ -119,15 +119,15 @@ const ProjectItem = ({ title, subtitle, background }) => {
         <img
           src={background}
           alt="cover project"
-          className="cursor-hover w-[20rem] h-[10.3rem] object-cover rounded-[.5rem] transition-all duration-[.3s] ease-in-out lg:rounded-[.8vw] lg:w-[33vw] lg:h-[17vw] hover:scale-105"
+          className="w-[20rem] h-[10.3rem] object-cover rounded-[.5rem] transition-all duration-[.3s] ease-in-out lg:rounded-[.8vw] lg:w-[33vw] lg:h-[17vw] hover:scale-105"
         />
       </div>
 
       <div className="flex flex-col items-start lg:gap-[.7vw]">
-        <h3 className="cursor-hover cursor-pointer  relative made-medium lg:text-[1.5vw] ">
+        <h3 className="cursor-pointer  relative made-medium lg:text-[1.5vw] ">
           {title}
         </h3>
-        <h4 className="cursor-hover cursor-pointer  relative helv-regular text-[#929292] lg:text-[1.2vw] lg:leading-[.1vw] ">
+        <h4 className="cursor-pointer  relative helv-regular text-[#929292] lg:text-[1.2vw] lg:leading-[.1vw] ">
           {subtitle}
         </h4>
       </div>

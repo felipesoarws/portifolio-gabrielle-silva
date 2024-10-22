@@ -134,6 +134,8 @@
       "desc": "Ensaio fotográfico",
       "background": "/img/photos/renata-almeida/cover.png",
       "secondTitle": "Renata Almeida",
+      "projectTitle": "Ensaio fotográfico",
+
       "assets": {
         "photos": [
           ["/img/photos/renata-almeida/img01.jpg"],
@@ -153,6 +155,8 @@
       "desc": "Ensaio fotográfico",
       "background": "/img/photos/renata-boucinha/cover.png",
       "secondTitle": "Renata Boucinha",
+      "projectTitle": "Ensaio fotográfico",
+
       "assets": {
         "photos": [
           ["/img/photos/renata-boucinha/img01.jpg"],
@@ -179,6 +183,8 @@
       "desc": "Ensaio fotográfico",
       "background": "/img/photos/jeniffer-pizon/cover.png",
       "secondTitle": "Jeniffer Pizon",
+      "projectTitle": "Ensaio fotográfico",
+
       "assets": {
         "photos": [
           ["/img/photos/jeniffer-pizon/img01.jpg"],
@@ -199,6 +205,8 @@
       "desc": "Shooting",
       "background": "/img/photos/armone/cover.png",
       "secondTitle": "ĀRMONE",
+      "projectTitle": "Shooting",
+
       "assets": {
         "photos": [
           ["/img/photos/armone/img01.jpg"],

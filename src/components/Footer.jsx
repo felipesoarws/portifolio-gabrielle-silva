@@ -44,11 +44,6 @@ const Footer = () => {
                         Projetos
                       </a>
                     </li>
-                    <li className="made-medium text-[1.2rem] lg:text-[2vw]">
-                      <a className="relative" href="#contato">
-                        Contato
-                      </a>
-                    </li>
                   </ul>
                 </nav>
               </div>
