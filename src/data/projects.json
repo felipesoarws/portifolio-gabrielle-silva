@@ -142,16 +142,7 @@
           ["/img/photos/renata-almeida/img04.jpg"],
           ["/img/photos/renata-almeida/img05.jpg"],
           ["/img/photos/renata-almeida/img06.jpg"],
-          ["/img/photos/renata-almeida/img07.jpg"],
-          ["/img/photos/renata-almeida/img08.jpg"],
-          ["/img/photos/renata-almeida/img09.jpg"],
-          ["/img/photos/renata-almeida/img10.jpg"],
-          ["/img/photos/renata-almeida/img11.jpg"],
-          ["/img/photos/renata-almeida/img12.jpg"],
-          ["/img/photos/renata-almeida/img13.jpg"],
-          ["/img/photos/renata-almeida/img14.jpg"],
-          ["/img/photos/renata-almeida/img15.jpg"],
-          ["/img/photos/renata-almeida/img16.jpg"]
+          ["/img/photos/renata-almeida/img07.jpg"]
         ]
       }
     },
@@ -183,25 +174,21 @@
     },
     {
       "id": 3,
-      "title": "Jennifer Pizon",
-      "slug": "ensaio-jennifer-pizon",
+      "title": "Jeniffer Pizon",
+      "slug": "ensaio-jeniffer-pizon",
       "desc": "Ensaio fotográfico",
-      "background": "/img/photos/jennifer-pizon/cover.png",
-      "secondTitle": "Jennifer Pizon",
+      "background": "/img/photos/jeniffer-pizon/cover.png",
+      "secondTitle": "Jeniffer Pizon",
       "assets": {
         "photos": [
-          ["/img/photos/jennifer-pizon/img01.jpg"],
-          ["/img/photos/jennifer-pizon/img02.jpg"],
-          ["/img/photos/jennifer-pizon/img03.jpg"],
-          ["/img/photos/jennifer-pizon/img04.jpg"],
-          ["/img/photos/jennifer-pizon/img05.jpg"],
-          ["/img/photos/jennifer-pizon/img06.jpg"],
-          ["/img/photos/jennifer-pizon/img07.jpg"],
-          ["/img/photos/jennifer-pizon/img08.jpg"],
-          ["/img/photos/jennifer-pizon/img09.jpg"],
-          ["/img/photos/jennifer-pizon/img10.jpg"],
-          ["/img/photos/jennifer-pizon/img11.jpg"],
-          ["/img/photos/jennifer-pizon/img12.jpg"]
+          ["/img/photos/jeniffer-pizon/img01.jpg"],
+          ["/img/photos/jeniffer-pizon/img02.jpg"],
+          ["/img/photos/jeniffer-pizon/img03.jpg"],
+          ["/img/photos/jeniffer-pizon/img04.jpg"],
+          ["/img/photos/jeniffer-pizon/img05.jpg"],
+          ["/img/photos/jeniffer-pizon/img06.jpg"],
+          ["/img/photos/jeniffer-pizon/img07.jpg"],
+          ["/img/photos/jeniffer-pizon/img08.jpg"]
         ]
       }
     },

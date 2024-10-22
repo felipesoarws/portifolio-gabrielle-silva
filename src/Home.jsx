@@ -18,8 +18,8 @@ function Home() {
           data-aos-duration="1500"
         >
           <p className="text-[#696667] text-[1.1rem] md:w-[50vw] lg:w-[40vw] italic lg:text-[2vw]">
-            Estou sempre aberta a novos desafios que possam expandir meus
-            conhecimentos e habilidades, tanto no design quanto na fotografia.
+            Aqui você encontra meus projetos, com criações tanto na publicidade
+            quanto na fotografia.
           </p>
         </section>
         <Projects />
