@@ -31,7 +31,7 @@ const Works = () => {
           <div className="flex flex-col gap-6 lg:gap-[3vw]">
             {advertisingProjects.map((project, idx) => (
               <div
-                className="flex items-end justify-between pb-4 gap-6 border-b-[#929292]  border-b-2 lg:pb-[3vw] lg:gap-[2vw] "
+                className="flex items-end justify-between pb-4 gap-6 border-b-[#92929231]  border-b-2 lg:pb-[3vw] lg:gap-[2vw] "
                 key={idx}
                 data-aos="fade-up"
                 data-aos-duration="1500"
