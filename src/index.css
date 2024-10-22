@@ -175,6 +175,21 @@ button.opened span.child-3 {
 
 /* footer */
 
+.all-works a::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0%;
+  height: 1.5px;
+  background-color: #f86c9a;
+  transition: all 0.3s ease-in-out;
+}
+
+.all-works:hover a::before {
+  width: 100%;
+}
+
 a::before {
   content: "";
   position: absolute;

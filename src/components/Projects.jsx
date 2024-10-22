@@ -6,9 +6,6 @@ import blur from "../assets/blur_title.png";
 // data
 import projects from "../data/projects.json";
 
-//icons
-import { BehanceLogo, LinkedinLogo } from "@phosphor-icons/react";
-
 const Projects = () => {
   return (
     <div className="flex flex-col items-center justify-center mx-4  mt-[1rem] lg:gap-[5vw] lg:mt-[1vw] lg:mx-[10vw]">
@@ -54,38 +51,21 @@ const Projects = () => {
         ))}
       </div>
       <div
-        className="text-center flex flex-col justify-center gap-2 md:w-[40rem] lg:text-right lg:gap-[1vw] lg:w-[32.5vw]"
+        className="text-center flex flex-col justify-center gap-2 my-8 md:w-[40rem] lg:text-right lg:gap-[1vw] lg:w-[32.5vw]"
         data-aos="fade-up"
         data-aos-duration="1000"
       >
-        <div className="text-center">
-          <h3 className="made-medium lg:text-[1.8vw]">
+        <div className=" text-center">
+          <h3 className="made-medium text-[1.2rem] lg:text-[1.8vw]">
             Quer dar uma olhada em mais projetos?
           </h3>
-          <p className="helv-regular text-[#929292] lg:text-[1.2vw]">
-            Veja meu Behance e/ou meu LinkedIn! ;)
+
+          <p className="all-works helv-regular text-[#f86c9b94]  text-[1.5rem] lg:text-[1.8vw]">
+            <a href="/works" className="relative">
+              Clique <strong className="text-[#F86C9A] ">aqui</strong> para ver
+              todos!
+            </a>
           </p>
-        </div>
-        <div className="flex gap-4 mb-8 justify-center">
-          <a href="https://www.behance.net/gabriellesilva_" target="_blank">
-            <BehanceLogo
-              size={32}
-              color="#231f20"
-              weight="bold"
-              className=" transition-all duration-[0.3s] ease-[ease-in-out] hover:scale-105"
-            />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/gabrielle-silva-b59b771a1/"
-            target="_blank"
-          >
-            <LinkedinLogo
-              size={32}
-              color="#231f20"
-              weight="fill"
-              className="transition-all duration-[0.3s] ease-[ease-in-out] hover:scale-105"
-            />
-          </a>
         </div>
       </div>
     </div>
