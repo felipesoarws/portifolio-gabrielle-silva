@@ -32,11 +32,13 @@ const ProjectDetails = () => {
   }, [id]);
 
   const handleImageClick = (photo) => {
+    document.body.classList.add("no-scroll");
     setCurrentImage(photo);
     setIsFullScreen(true);
   };
 
   const handleClose = () => {
+    document.body.classList.remove("no-scroll");
     setIsFullScreen(false);
     setCurrentImage(null);
   };
