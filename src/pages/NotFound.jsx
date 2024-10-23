@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 const NotFound = () => {
   return (
     <div className="flex flex-col items-center justify-center mx-4 mt-[7rem] lg:gap-[2vw] lg:mt-[4vw] lg:mx-[10vw]">
-      <GoBack />
+      <GoBack where={"home"} />
       <div className="flex flex-col items-center justify-center text-center gap-[2rem] lg:gap-[1vw]">
         <h1 className="made-bold text-[3rem] lg:text-[6vw] text-[#F86C9A]">
           Ops!

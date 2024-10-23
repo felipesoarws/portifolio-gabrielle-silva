@@ -18,7 +18,7 @@ const Works = () => {
 
   return (
     <div>
-      <GoBack />
+      <GoBack where={"home"} />
       <div className="min-h-screen flex flex-col items-center justify-center mx-8 my-20 gap-10 lg:items-center lg:gap-[8vw] lg:my-[6vw] lg:mx-[3vw]">
         <div>
           <h3

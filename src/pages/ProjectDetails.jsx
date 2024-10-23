@@ -43,7 +43,7 @@ const ProjectDetails = () => {
 
   return (
     <div className="flex flex-col items-center justify-center mx-4 mt-[1rem] lg:gap-[5vw] lg:mt-[2vw] lg:mx-[10vw]">
-      <GoBack />
+      <GoBack where={"works"} />
       {projectData.map((item, id) => (
         <div key={id}>
           <div

@@ -3,13 +3,13 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const GoBack = () => {
+const GoBack = ({ where }) => {
   useEffect(() => {
     AOS.init();
   }, []);
 
   return (
-    <Link to={"/"}>
+    <Link to={where === "home" ? "/" : "/works"}>
       <div
         className="z-[1] fixed top-6 left-6 lg:top-[2vw] lg:left-[2vw] "
         data-aos="fade-right"
