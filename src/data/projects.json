@@ -161,18 +161,6 @@
       "assets": {
         "videos": [["/img/projects/novartis/vale-mais-saude/video01.mp4np"]]
       }
-    },
-    {
-      "id": 9,
-      "title": "Novartis | Psiu Psoríase",
-      "slug": "novartis-psiu-psoriase",
-      "desc": "Infográfico",
-      "background": "/img/projects/novartis/psiu-psoriase/cover.png",
-      "secondTitle": "Novartis",
-      "projectTitle": "Psiu, Psoríase!",
-      "assets": {
-        "videos": [["/img/projects/novartis/psiu-psoriase/video01.mp4"]]
-      }
     }
   ],
   [
