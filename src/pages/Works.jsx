@@ -19,7 +19,7 @@ const Works = () => {
   return (
     <div>
       <GoBack where={"home"} />
-      <div className="min-h-screen flex flex-col items-center justify-center mx-8 my-20 gap-10 lg:items-center lg:gap-[8vw] lg:my-[6vw] lg:mx-[3vw]">
+      <div className="min-h-screen overflow-x-hidden flex flex-col items-center justify-center mx-8 my-20 gap-10 lg:items-center lg:gap-[8vw] lg:my-[6vw] lg:mx-[3vw]">
         <div>
           <h3
             className="made-medium my-4 text-[2rem]  lg:my-[3vw] lg:text-[5vw] text-center"
@@ -36,7 +36,7 @@ const Works = () => {
                 data-aos="fade-up"
                 data-aos-duration="1500"
               >
-                <div className="lg:w-[50vw]">
+                <div className="w-[50vw] lg:w-[50vw]">
                   <h2
                     className="made-bold text-[1.5rem] leading-[1.5rem] lg:text-[5vw]  lg:leading-[1.9vw]"
                     data-aos="fade-right"
@@ -65,7 +65,7 @@ const Works = () => {
                     <img
                       src={project.background}
                       alt={project.projectTitle}
-                      className="object-cover object-top rounded-[.5rem] w-[9rem] h-[5rem] transition-all duration-[.3s] ease-in-out lg:rounded-[.8vw] lg:h-[15vw] hover:scale-105 lg:w-[30vw] "
+                      className="object-cover object-top rounded-[.5rem] w-[6rem] h-[5rem] transition-all duration-[.3s] ease-in-out lg:rounded-[.8vw] lg:h-[15vw] hover:scale-105 lg:w-[30vw] "
                     />
                   </Link>
                 </div>
@@ -89,7 +89,7 @@ const Works = () => {
                 data-aos="fade-up"
                 data-aos-duration="1500"
               >
-                <div className="lg:w-[50vw]">
+                <div className="w-[50vw] lg:w-[50vw]">
                   <h2
                     className="made-bold text-[1.5rem] leading-[1.5rem] lg:text-[5vw]  lg:leading-[1.9vw]"
                     data-aos="fade-right"
@@ -118,7 +118,7 @@ const Works = () => {
                     <img
                       src={project.background}
                       alt={project.projectTitle}
-                      className="object-cover object-top rounded-[.5rem] w-[9rem] h-[5rem] transition-all duration-[.3s] ease-in-out lg:rounded-[.8vw] lg:h-[15vw] hover:scale-105 lg:w-[30vw] "
+                      className="object-cover object-top rounded-[.5rem] w-[6rem] h-[5rem] transition-all duration-[.3s] ease-in-out lg:rounded-[.8vw] lg:h-[15vw] hover:scale-105 lg:w-[30vw] "
                     />
                   </Link>
                 </div>

@@ -109,9 +109,22 @@
       "title": "Novartis | Caminhos múltiplos",
       "slug": "novartis-caminhos-multiplos",
       "desc": "Identidade visual",
-      "background": "/img/projects/novartis/cover.png",
+      "background": "/img/projects/novartis/caminhos-multiplos/cover.png",
       "secondTitle": "Novartis",
-      "projectTitle": "Caminhos múltiplos"
+      "projectTitle": "Caminhos múltiplos",
+      "assets": {
+        "photos": [
+          ["/img/projects/novartis/caminhos-multiplos/img01.jpg"],
+          ["/img/projects/novartis/caminhos-multiplos/img02.jpg"],
+          ["/img/projects/novartis/caminhos-multiplos/img03.jpg"],
+          ["/img/projects/novartis/caminhos-multiplos/img04.jpg"],
+          ["/img/projects/novartis/caminhos-multiplos/img05.jpg"],
+          ["/img/projects/novartis/caminhos-multiplos/img06.jpg"],
+          ["/img/projects/novartis/caminhos-multiplos/img07.jpg"],
+          ["/img/projects/novartis/caminhos-multiplos/img08.jpg"],
+          ["/img/projects/novartis/caminhos-multiplos/img09.jpg"]
+        ]
+      }
     },
     {
       "id": 6,
@@ -124,6 +137,42 @@
       "assets": {
         "videos": [["/img/projects/set-amarelo/video01.mp4"]]
       }
+    },
+    {
+      "id": 7,
+      "title": "Abbvie | Venclexta",
+      "slug": "abbvie-venclexta",
+      "desc": "CLM",
+      "background": "/img/projects/abbvie/cover.png",
+      "secondTitle": "Abbvie",
+      "projectTitle": "Venclexta",
+      "assets": {
+        "videos": [["/img/projects/abbvie/video01.mp4"]]
+      }
+    },
+    {
+      "id": 8,
+      "title": "Novartis | Vale Mais Saúde",
+      "slug": "novartis-vale-mais-saude",
+      "desc": "Infográfico",
+      "background": "/img/projects/novartis/vale-mais-saude/cover.png",
+      "secondTitle": "Novartis",
+      "projectTitle": "Vale Mais Saúde",
+      "assets": {
+        "videos": [["/img/projects/novartis/vale-mais-saude/video01.mp4np"]]
+      }
+    },
+    {
+      "id": 9,
+      "title": "Novartis | Psiu Psoríase",
+      "slug": "novartis-psiu-psoriase",
+      "desc": "Infográfico",
+      "background": "/img/projects/novartis/psiu-psoriase/cover.png",
+      "secondTitle": "Novartis",
+      "projectTitle": "Psiu, Psoríase!",
+      "assets": {
+        "videos": [["/img/projects/novartis/psiu-psoriase/video01.mp4"]]
+      }
     }
   ],
   [
@@ -132,19 +181,19 @@
       "title": "Renata Almeida",
       "slug": "ensaio-renata-almeida",
       "desc": "Ensaio fotográfico",
-      "background": "/img/photos/renata-almeida/cover.png",
+      "background": "/img/audiovisual/renata-almeida/cover.png",
       "secondTitle": "Renata Almeida",
       "projectTitle": "Ensaio fotográfico",
 
       "assets": {
         "photos": [
-          ["/img/photos/renata-almeida/img01.jpg"],
-          ["/img/photos/renata-almeida/img02.jpg"],
-          ["/img/photos/renata-almeida/img03.jpg"],
-          ["/img/photos/renata-almeida/img04.jpg"],
-          ["/img/photos/renata-almeida/img05.jpg"],
-          ["/img/photos/renata-almeida/img06.jpg"],
-          ["/img/photos/renata-almeida/img07.jpg"]
+          ["/img/audiovisual/renata-almeida/img01.jpg"],
+          ["/img/audiovisual/renata-almeida/img02.jpg"],
+          ["/img/audiovisual/renata-almeida/img03.jpg"],
+          ["/img/audiovisual/renata-almeida/img04.jpg"],
+          ["/img/audiovisual/renata-almeida/img05.jpg"],
+          ["/img/audiovisual/renata-almeida/img06.jpg"],
+          ["/img/audiovisual/renata-almeida/img07.jpg"]
         ]
       }
     },
@@ -153,26 +202,26 @@
       "title": "Renata Boucinha",
       "slug": "ensaio-renata-boucinha",
       "desc": "Ensaio fotográfico",
-      "background": "/img/photos/renata-boucinha/cover.png",
+      "background": "/img/audiovisual/renata-boucinha/cover.png",
       "secondTitle": "Renata Boucinha",
       "projectTitle": "Ensaio fotográfico",
 
       "assets": {
         "photos": [
-          ["/img/photos/renata-boucinha/img01.jpg"],
-          ["/img/photos/renata-boucinha/img02.jpg"],
-          ["/img/photos/renata-boucinha/img03.jpg"],
-          ["/img/photos/renata-boucinha/img04.jpg"],
-          ["/img/photos/renata-boucinha/img05.jpg"],
-          ["/img/photos/renata-boucinha/img06.jpg"],
-          ["/img/photos/renata-boucinha/img07.jpg"],
-          ["/img/photos/renata-boucinha/img08.jpg"],
-          ["/img/photos/renata-boucinha/img09.jpg"],
-          ["/img/photos/renata-boucinha/img10.jpg"],
-          ["/img/photos/renata-boucinha/img11.jpg"],
-          ["/img/photos/renata-boucinha/img12.jpg"],
-          ["/img/photos/renata-boucinha/img13.jpg"],
-          ["/img/photos/renata-boucinha/img14.jpg"]
+          ["/img/audiovisual/renata-boucinha/img01.jpg"],
+          ["/img/audiovisual/renata-boucinha/img02.jpg"],
+          ["/img/audiovisual/renata-boucinha/img03.jpg"],
+          ["/img/audiovisual/renata-boucinha/img04.jpg"],
+          ["/img/audiovisual/renata-boucinha/img05.jpg"],
+          ["/img/audiovisual/renata-boucinha/img06.jpg"],
+          ["/img/audiovisual/renata-boucinha/img07.jpg"],
+          ["/img/audiovisual/renata-boucinha/img08.jpg"],
+          ["/img/audiovisual/renata-boucinha/img09.jpg"],
+          ["/img/audiovisual/renata-boucinha/img10.jpg"],
+          ["/img/audiovisual/renata-boucinha/img11.jpg"],
+          ["/img/audiovisual/renata-boucinha/img12.jpg"],
+          ["/img/audiovisual/renata-boucinha/img13.jpg"],
+          ["/img/audiovisual/renata-boucinha/img14.jpg"]
         ]
       }
     },
@@ -181,20 +230,20 @@
       "title": "Jeniffer Pizon",
       "slug": "ensaio-jeniffer-pizon",
       "desc": "Ensaio fotográfico",
-      "background": "/img/photos/jeniffer-pizon/cover.png",
+      "background": "/img/audiovisual/jeniffer-pizon/cover.png",
       "secondTitle": "Jeniffer Pizon",
       "projectTitle": "Ensaio fotográfico",
 
       "assets": {
         "photos": [
-          ["/img/photos/jeniffer-pizon/img01.jpg"],
-          ["/img/photos/jeniffer-pizon/img02.jpg"],
-          ["/img/photos/jeniffer-pizon/img03.jpg"],
-          ["/img/photos/jeniffer-pizon/img04.jpg"],
-          ["/img/photos/jeniffer-pizon/img05.jpg"],
-          ["/img/photos/jeniffer-pizon/img06.jpg"],
-          ["/img/photos/jeniffer-pizon/img07.jpg"],
-          ["/img/photos/jeniffer-pizon/img08.jpg"]
+          ["/img/audiovisual/jeniffer-pizon/img01.jpg"],
+          ["/img/audiovisual/jeniffer-pizon/img02.jpg"],
+          ["/img/audiovisual/jeniffer-pizon/img03.jpg"],
+          ["/img/audiovisual/jeniffer-pizon/img04.jpg"],
+          ["/img/audiovisual/jeniffer-pizon/img05.jpg"],
+          ["/img/audiovisual/jeniffer-pizon/img06.jpg"],
+          ["/img/audiovisual/jeniffer-pizon/img07.jpg"],
+          ["/img/audiovisual/jeniffer-pizon/img08.jpg"]
         ]
       }
     },
@@ -203,27 +252,40 @@
       "title": "ĀRMONE",
       "slug": "ensaio-armone",
       "desc": "Shooting",
-      "background": "/img/photos/armone/cover.png",
+      "background": "/img/audiovisual/armone/cover.png",
       "secondTitle": "ĀRMONE",
       "projectTitle": "Shooting",
 
       "assets": {
         "photos": [
-          ["/img/photos/armone/img01.jpg"],
-          ["/img/photos/armone/img02.jpg"],
-          ["/img/photos/armone/img03.jpg"],
-          ["/img/photos/armone/img04.jpg"],
-          ["/img/photos/armone/img05.jpg"],
-          ["/img/photos/armone/img06.jpg"],
-          ["/img/photos/armone/img07.jpg"],
-          ["/img/photos/armone/img08.jpg"],
-          ["/img/photos/armone/img09.jpg"]
+          ["/img/audiovisual/armone/img01.jpg"],
+          ["/img/audiovisual/armone/img02.jpg"],
+          ["/img/audiovisual/armone/img03.jpg"],
+          ["/img/audiovisual/armone/img04.jpg"],
+          ["/img/audiovisual/armone/img05.jpg"],
+          ["/img/audiovisual/armone/img06.jpg"],
+          ["/img/audiovisual/armone/img07.jpg"],
+          ["/img/audiovisual/armone/img08.jpg"],
+          ["/img/audiovisual/armone/img09.jpg"]
         ],
         "videos": [
-          ["/img/photos/armone/video01.mp4"],
-          ["/img/photos/armone/video02.mp4"],
-          ["/img/photos/armone/video03.mp4"]
+          ["/img/audiovisual/armone/video01.mp4"],
+          ["/img/audiovisual/armone/video02.mp4"],
+          ["/img/audiovisual/armone/video03.mp4"]
         ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "Antenor",
+      "slug": "teaser-antenor",
+      "desc": "O Homem da cabeça de papelão",
+      "background": "/img/audiovisual/antenor/cover.png",
+      "secondTitle": "Antenor",
+      "projectTitle": "Teaser | O Homem da cabeça de papelão",
+
+      "assets": {
+        "videos": [["/img/audiovisual/antenor/video01.mp4"]]
       }
     }
   ]
