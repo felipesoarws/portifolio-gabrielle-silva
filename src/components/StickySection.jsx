@@ -30,9 +30,14 @@ const StickySection = () => {
           </div>
           <div className="flex flex-col gap-4 lg:gap-[3vw]">
             <Item
+              title={"Gutta"}
+              subtitle={"Diretora de Arte"}
+              years={"2024 - Até o momento"}
+            />
+            <Item
               title={"SwordFish Brasil"}
               subtitle={"Diretora de Arte"}
-              years={"2021 - Até o momento"}
+              years={"2021 - 2024"}
             />
             <Item
               title={"SuperCinema"}
