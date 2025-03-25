@@ -30,7 +30,7 @@ const Projects = () => {
           </Link>
         ))}
       </div>
-      <div className="flex flex-col items-center justify-center" id="projetos">
+      {/*   <div className="flex flex-col items-center justify-center" id="projetos">
         <h3
           className="made-medium my-4 lg:text-[2vw]"
           data-aos="fade-up"
@@ -49,7 +49,7 @@ const Projects = () => {
             />
           </Link>
         ))}
-      </div>
+      </div> */}
       <div
         className="text-center flex flex-col justify-center gap-2 my-8 md:w-[40rem] lg:text-right lg:gap-[1vw] lg:w-[32.5vw]"
         data-aos="fade-up"

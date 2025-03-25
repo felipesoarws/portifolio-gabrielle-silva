@@ -73,7 +73,7 @@ const Works = () => {
             ))}
           </div>
         </div>
-        <div>
+        {/*  <div>
           <h3
             className="made-medium my-4 text-[2rem] lg:my-[3vw] lg:text-[5vw] text-center"
             data-aos="fade-up"
@@ -125,7 +125,7 @@ const Works = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
       <Footer />
     </div>
